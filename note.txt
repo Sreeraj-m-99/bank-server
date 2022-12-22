@@ -1,0 +1,113 @@
+server creation
+---------------
+
+install express
+
+       -npm i express
+
+1.import express
+
+
+2.create an app using express
+
+
+3.create port number(3000 series)
+
+
+4.create requests according to our project
+
+
+nodemon server
+----------------
+-npm i -g nodemon
+
+user Authentication using express
+-----------------------------------
+
+
+JWT(json web token) token
+-------------------------------
+
+jsonwebtoken    -library  npm i jsonwebtoken
+
+sign()          -method used for generate token
+
+verify()        -method to verify tokens
+
+Middlewares
+-------------
+
+-Middlewares have capacity to control server requests
+-it is a function with 3 arguments(request,response,next)
+
+
+-two types of Middlewares
+   1.Application specific Middlewares
+
+   2.Router specific Middlewares
+
+
+   solving Run-time errors in java script
+   --------------------------------------
+   try catch
+
+   try{
+       error causing code
+   }
+
+   catch{
+       solution
+   }
+
+
+   Mongo DB
+   ------------
+   -mongodb server
+    
+   -shell commands in mongodb
+
+       -to see the databases
+          
+          ->show dbs (to see all)
+        - open database
+
+          ->use database_name(to view perticular database)
+
+        -view collection inside database
+
+         ->show collections
+
+        -to view data inside collections
+
+         -> db.collection_name.find()  
+
+        -to view any single data inside collections 
+
+         -> db.collection_name.findOne({unique data to identify}) 
+
+        -to insert new data 
+
+         ->db.collection_name.insertOne({data})
+
+        -to view any single data according to a condition
+
+         ->db.collection_name.findone({condition}) single data
+
+         ->db.collection_name.find({condition}) all data
+
+        -delete
+
+         -delete single data 
+
+                ->db.collection_name.deleteOne({data}) 
+
+                -delete count=number      1
+
+                -delete count=0     if nothing
+
+
+        -update
+
+
+          ->db.collection_name.updateOne({data to be update},{new data})        
+
